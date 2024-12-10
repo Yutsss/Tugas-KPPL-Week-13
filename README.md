@@ -121,11 +121,11 @@ Kelompok 13:
 
 ### **Use Case: Log Aktivitas**
 
-**Aktor**: Pengguna.
-**Deskripsi**: Pengguna dapat melihat log aktivitas untuk memantau tindakan yang dilakukan pada perangkat.
-**Prekondisi**: Pengguna telah masuk ke sistem dan log aktivitas telah disimpan.
-**Postkondisi**: Pengguna berhasil melihat log aktivitas.
-**Alur**:
+- **Aktor**: Pengguna.
+- **Deskripsi**: Pengguna dapat melihat log aktivitas untuk memantau tindakan yang dilakukan pada perangkat.
+- **Prekondisi**: Pengguna telah masuk ke sistem dan log aktivitas telah disimpan.
+- **Postkondisi**: Pengguna berhasil melihat log aktivitas.
+- **Alur**:
   1. Pengguna membuka halaman log aktivitas.
   2. Sistem menampilkan daftar log aktivitas yang relevan untuk pengguna.
   3. Pengguna melihat detail aktivitas tertentu jika diperlukan.
