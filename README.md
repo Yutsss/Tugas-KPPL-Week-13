@@ -266,5 +266,3 @@ Kelompok 13:
   3. Pengguna melihat detail aktivitas tertentu jika diperlukan.
 
 ## **Analisis Activity Diagram**
-
-## **Behavioral Element**
