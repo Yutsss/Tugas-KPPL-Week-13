@@ -12,3 +12,7 @@ Kelompok 13:
 2. Analysis Model, Use Case Diagram, Activity Diagram, dan Class Diagram.
 3. Lengkapi Analysis Model yang dibuat dengan Behavioral Element.
 4. Pengerjaan bisa secara kelompok, maksimal 2
+
+## **Use Case Diagram**
+
+![alt text](Resource/useCaseDiagram.png)
