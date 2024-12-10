@@ -15,6 +15,8 @@ Kelompok 13:
 
 ## **Class Diagram**
 
+![alt text](Resource/Class.png)
+
 ## **Use Case Diagram**
 
 ![alt text](Resource/useCaseDiagram.png)
