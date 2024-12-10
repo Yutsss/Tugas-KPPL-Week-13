@@ -23,6 +23,34 @@ Kelompok 13:
 
 ## **Activity Diagram**
 
+- Register
+
+    ![alt text](Resource/Register.png)
+
+- Login
+
+    ![alt text](Resource/Login.png)
+
+- Add Device
+
+    ![alt text](Resource/AddDevice.png)
+
+- Remove Device
+
+    ![alt text](Resource/RemoceDevice.png)
+
+- Device Status
+
+    ![alt text](Resource/DeviceStatus.png)
+
+- Control and Automation
+
+    ![alt text](Resource/ControlAutomation.png)
+
+- Log
+
+    ![alt text](Resource/Log.png)
+
 ## **Analisis Class Diagram**
 
  ### **User** ###
@@ -266,3 +294,31 @@ Kelompok 13:
   3. Pengguna melihat detail aktivitas tertentu jika diperlukan.
 
 ## **Analisis Activity Diagram**
+
+- **Register**
+
+    Proses mulai dari pengguna memasukkan email, nama pengguna, dan kata sandi, hingga pengecekan apakah email atau nama pengguna sudah ada dalam sistem. Jika ada, sistem menampilkan pesan kesalahan kepada pengguna untuk mencoba kredensial berbeda. Jika tidak, pengguna didaftarkan ke dalam sistem, dan proses berakhir.
+
+- **Login**
+
+    Hanya pengguna yang memiliki kredensial yang benar yang dapat masuk ke dalam sistem, sementara pengguna yang memasukkan email atau kata sandi yang salah akan menerima pesan kesalahan yang mengarahkan mereka untuk mencoba kembali dengan kredensial yang benar.
+
+- **Add Device**
+    
+    Proses mulai dari pengguna memasukkan nama perangkat, jika nama telah ada sebelumnya didalam sistem, maka akan memunculkan pesan error. Jika belum, maka nama device didaftarkan dalam sistem.
+
+- **Remove Device**
+
+    Proses mulai dari pengguna memasukkan nama perangkat, jika nama ada didalam sistem, maka sistem akan menghapus perangkat. Jika belum, maka memunculkan pesan error.
+
+- **Device Status**
+
+    Proses mulai dari memasukkan nama perangkat. Jika perangkat tidak ada, maka sistem memunculkan pesan error. Jika ada, maka sistem menampilkan status perangkat.
+
+- **Control and Automation**
+
+    Proses dimulai dengan memilih perangkat, jika dilakukan otomasi, maka user harus memasukkan waktu aktif perangkat. Perintah kemudian dikirim untuk dijalankan oleh sistem. Setelah perintah berjalan, sistem mengirim notifikasi.
+
+- **Log**
+
+    Proses akan langsung memunculkan log aktivitas, kemudian proses berakhir.
